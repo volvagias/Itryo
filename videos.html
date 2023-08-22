@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="#">
+    <title>ITRYO - Sitio Oficial</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="nav">
+      <a href="#"><img class="logo" src="./assets/logo.png" alt="logo-itryo"></a>
+      <div class="contenedor">
+        <div class="contenido" id="popup1">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Música</a>
+          </li>
+          <li>
+            <a href="">Videos</a>
+          </li>
+          <li>
+            <a href="">Bio</a>
+          </li>
+          <li>
+            <a href="">Conciertos</a>
+          </li>
+        </div>
+        <a onclick="popup('popup1')" id="popup1" class="menu"><img class="menu" src="./assets/list.svg" alt="menu"></a>
+      </div>
+    </nav>
+
+    <main class="main">
+      <section class="section">
+        <div class="contenedor-2">
+          <div class="contenido-2">
+            <h1 class="h1">ITRYO</h1>
+            <p class="parrafo">
+              VIDEO OFICIAL
+            </p>
+          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=WXNwz_qbMOE" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <a href="#"><img src="./assets/instagram.svg" alt="instagram-icon" class="iconosFooter"></a>
+        <a href="#"><img src="./assets/facebook.svg" alt="facebook-icon" class="iconosFooter"></a>
+        <a href="#"><img src="./assets/youtube.svg" alt="youtube-icon" class="iconosFooter"></a>
+        <p>2023 ITRYO</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
