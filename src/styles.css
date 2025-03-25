@@ -1,1 +1,32 @@
-/*  */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+html, body {
+    height: 100vh; /* Centras la página evitando scrolls innecesarios */
+    height: 100%;
+}
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body
+{
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  color: #33353a;
+  overflow-x: auto;
+  overflow-y: auto;
+  font-family: 'Georgia', serif;
+  background-color: #131313;
+}
+
+button {
+  font-family: 'Georgia', serif;
+}
+
+
+
