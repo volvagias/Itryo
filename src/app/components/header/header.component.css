@@ -2,12 +2,10 @@
 
 header {
     display: flex;
-    /* width: calc(100% - 17.4px); */
     width: 100%;
-    height: 56px;
-    justify-content: center;
+    height: 80px;
+    justify-content: space-between;
     align-items: center;
-    /* margin-top: 34px; */
     position: fixed;
     z-index: 999;
     background-color: #1a1a1ab8;
@@ -15,14 +13,32 @@ header {
 }
 
 img {
-    width: 10%;
-    padding: 10px 10px 15px 10px;
-    margin-left: auto;
+    width: 150px;
+    padding: 10px;
+    /* margin-left: auto; */
+    margin-left: 10px;
     cursor: pointer;
 }
 
 .buttons-ctn {
     display: flex;
     gap: 17px;
-    margin-right: auto;
+    /* margin-right: auto; */
+    margin-right: 10px;
+}
+
+.buttons-ctn button {
+    height: 35px;
+    width: 97px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+    white-space: nowrap;
+    border: unset;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+
+    cursor: pointer;
 }
