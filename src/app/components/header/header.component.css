@@ -20,3 +20,9 @@ img {
     margin-left: auto;
     cursor: pointer;
 }
+
+.buttons-ctn {
+    display: flex;
+    gap: 17px;
+    margin-right: auto;
+}
