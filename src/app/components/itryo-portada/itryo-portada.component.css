@@ -1,0 +1,13 @@
+.ctn { 
+    margin-top: 90px; /* aplicar este estilo para tener un espaciado entre el header. */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctn img {
+    width: 400px;
+    padding: 15px;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 82%); /* difumina bordes de imagenes. */
+}

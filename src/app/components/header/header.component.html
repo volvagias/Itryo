@@ -3,9 +3,9 @@
     <img onclick="window.location.replace('/home');" src="/assets/logos/logo-itryo.png" alt="Itryo - Sitio Oficial">
     
     <div class="buttons-ctn">
-        <button onclick="window.location.replace('/home');">Home</button>
-        <button onclick="window.location.replace('/itryo-music');">Música</button>
-        <button onclick="window.location.replace('/about-us');">Nosotros</button>
+        <button (click)="navigateTo('/home')">Home</button> <!-- Importar componente en constructor y crear funcion para que funcione -->
+        <button (click)="navigateTo('/itryo-music')">Música</button>
+        <button (click)="navigateTo('/about-us')">Nosotros</button>
     </div>
 
 </header>

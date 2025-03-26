@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MusicComponent } from './pages/music/music.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { ItryoPortadaComponent } from './components/itryo-portada/itryo-portada.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
     HomeComponent,
     HeaderComponent,
     MusicComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ItryoPortadaComponent
   ],
   imports: [
     BrowserModule,
