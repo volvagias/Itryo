@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MusicComponent } from './pages/music/music.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ItryoPortadaComponent } from './components/itryo-portada/itryo-portada.component';
+import { LogoPortadaComponent } from './components/logo-portada/logo-portada.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ItryoPortadaComponent } from './components/itryo-portada/itryo-portada.
     HeaderComponent,
     MusicComponent,
     AboutUsComponent,
-    ItryoPortadaComponent
+    ItryoPortadaComponent,
+    LogoPortadaComponent
   ],
   imports: [
     BrowserModule,
