@@ -11,6 +11,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ItryoPortadaComponent } from './components/itryo-portada/itryo-portada.component';
 import { LogoPortadaComponent } from './components/logo-portada/logo-portada.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ClipboardModule } from '@angular/cdk/clipboard';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ClipboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
