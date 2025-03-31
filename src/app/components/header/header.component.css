@@ -8,9 +8,11 @@ header {
     align-items: center;
     position: fixed;
     z-index: 999;
-    background-color: #1a1a1ab8;
-    box-shadow: 0px 5px 20px 3px rgba(110, 0, 0, 0.637);
+    /* background-color: #1a1a1ab8; */
+    background: linear-gradient(to bottom, #000000b8, rgb(110 0 0 / 35%) 100%);
+    box-shadow: 0px 5px 20px 3px rgb(110 0 0 / 47%);
 }
+
 
 img {
     width: 130px;
