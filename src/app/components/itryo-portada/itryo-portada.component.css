@@ -4,6 +4,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* Hace parallax en el background */
+    background-image: url('/assets/backgrounds/body-background.png');
+    background-attachment: fixed;
 }
 
 .ctn img {
@@ -12,7 +16,13 @@
     mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 82%); /* difumina bordes de imagenes. */
 }
 
+
 @media (max-width: 700px) {
+    .ctn {
+        background-image: none;
+        background-attachment: unset;
+    }
+
     .ctn img {
         width: 300px;
         padding: 3px;
