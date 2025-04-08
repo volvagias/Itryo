@@ -1,3 +1,11 @@
+.anton-sc-regular { /* Fuente Rock */
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: "Anton SC", sans-serif;
+    font-style: normal;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -21,6 +29,7 @@ footer {
 p {
     margin: 0;
     overflow-wrap: anywhere;
+    font-family: 'Lora', serif;
 }
 
 footer a {
@@ -59,6 +68,12 @@ footer a:hover i {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.footer-info .copy-message {
+    padding: 2px;
+    border: 2px solid rgb(151 29 29);
+    color: rgb(151 29 29);
 }
 
 .email {

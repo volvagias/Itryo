@@ -20,7 +20,7 @@ export class FooterComponent {
     this.copyMessage = true;
     setTimeout(() => {
       this.copyMessage = false;
-    }, 4000); // Oculta el mensaje después de 4 segundos.
+    }, 1500); // Oculta el mensaje después de 4 segundos.
   }
 
 }
