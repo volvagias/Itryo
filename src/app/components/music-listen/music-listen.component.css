@@ -16,7 +16,6 @@
 .img-ctn img {
     object-fit: contain; /* Asegura que la imagen se ajuste sin recortarse */
     width: 100%;
-    padding: 50px;
 }
 
 .info-ctn {
@@ -75,7 +74,7 @@ h3 {
     }
 
     .img-ctn img {
-        padding: 0 0 50px 0;
+        padding: 0 0 25px 0 !important;
     }
 
     .info-ctn {
