@@ -13,6 +13,7 @@ import { LogoPortadaComponent } from './components/logo-portada/logo-portada.com
 import { FooterComponent } from './components/footer/footer.component';
 import { ClipboardModule } from '@angular/cdk/clipboard';
 import { NosotrosInfoComponent } from './components/nosotros-info/nosotros-info.component';
+import { VideoHomeComponent } from './components/video-home/video-home.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NosotrosInfoComponent } from './components/nosotros-info/nosotros-info.
     ItryoPortadaComponent,
     LogoPortadaComponent,
     FooterComponent,
-    NosotrosInfoComponent
+    NosotrosInfoComponent,
+    VideoHomeComponent
   ],
   imports: [
     BrowserModule,
