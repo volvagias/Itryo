@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ClipboardModule } from '@angular/cdk/clipboard';
 import { NosotrosInfoComponent } from './components/nosotros-info/nosotros-info.component';
 import { VideoHomeComponent } from './components/video-home/video-home.component';
+import { MusicListenComponent } from './components/music-listen/music-listen.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { VideoHomeComponent } from './components/video-home/video-home.component
     LogoPortadaComponent,
     FooterComponent,
     NosotrosInfoComponent,
-    VideoHomeComponent
+    VideoHomeComponent,
+    MusicListenComponent
   ],
   imports: [
     BrowserModule,
