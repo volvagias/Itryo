@@ -15,6 +15,7 @@ import { ClipboardModule } from '@angular/cdk/clipboard';
 import { NosotrosInfoComponent } from './components/nosotros-info/nosotros-info.component';
 import { VideoHomeComponent } from './components/video-home/video-home.component';
 import { MusicListenComponent } from './components/music-listen/music-listen.component';
+import { LiveSessionComponent } from './components/live-session/live-session.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { MusicListenComponent } from './components/music-listen/music-listen.com
     FooterComponent,
     NosotrosInfoComponent,
     VideoHomeComponent,
-    MusicListenComponent
+    MusicListenComponent,
+    LiveSessionComponent
   ],
   imports: [
     BrowserModule,
