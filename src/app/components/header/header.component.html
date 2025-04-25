@@ -1,12 +1,6 @@
 <header>
     
     <img onclick="window.location.replace('/home');" src="/assets/logos/logo-itryo.png" alt="Itryo - Sitio Oficial">
-    
-    <div class="buttons-ctn">
-        <button (click)="navigateTo('/home')">Home</button> <!-- Importar componente en constructor y crear funcion para que funcione -->
-        <button (click)="navigateTo('/itryo-music')">Música</button>
-        <button (click)="navigateTo('/about-us')">Nosotros</button>
-    </div>
 
     <div class="btn-container">
         <button *ngIf="menuState === false" class="button-open" (click)="openMenu()"></button>
@@ -16,13 +10,13 @@
     <div class="menu" *ngIf="menuState">
         <ul>
             <li>
-                <button (click)="navigateTo('/home')">Home</button>
+                <button (click)="navigateTo('/home')">HOME</button>
             </li>
             <li>
-                <button (click)="navigateTo('/itryo-music')">Música</button>
+                <button (click)="navigateTo('/itryo-music')">MÚSICA</button>
             </li>
             <li>
-                <button (click)="navigateTo('/about-us')">Nosotros</button>
+                <button (click)="navigateTo('/about-us')">NOSOTROS</button>
             </li>
         </ul>
     </div>
