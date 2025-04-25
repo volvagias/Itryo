@@ -8,4 +8,23 @@
         <button (click)="navigateTo('/about-us')">Nosotros</button>
     </div>
 
+    <div class="btn-container">
+        <button *ngIf="menuState === false" class="button-open" (click)="openMenu()"></button>
+        <button *ngIf="menuState === true" class="button-close" (click)="openMenu()"></button>
+    </div>
+
+    <div class="menu" *ngIf="menuState">
+        <ul>
+            <li>
+                <button (click)="navigateTo('/home')">Home</button>
+            </li>
+            <li>
+                <button (click)="navigateTo('/itryo-music')">Música</button>
+            </li>
+            <li>
+                <button (click)="navigateTo('/about-us')">Nosotros</button>
+            </li>
+        </ul>
+    </div>
+
 </header>
