@@ -16,6 +16,8 @@ import { NosotrosInfoComponent } from './components/nosotros-info/nosotros-info.
 import { VideoHomeComponent } from './components/video-home/video-home.component';
 import { MusicListenComponent } from './components/music-listen/music-listen.component';
 import { LiveSessionComponent } from './components/live-session/live-session.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { LiveSessionComponent } from './components/live-session/live-session.com
     NosotrosInfoComponent,
     VideoHomeComponent,
     MusicListenComponent,
-    LiveSessionComponent
+    LiveSessionComponent,
+    ContactComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
