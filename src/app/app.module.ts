@@ -18,6 +18,8 @@ import { MusicListenComponent } from './components/music-listen/music-listen.com
 import { LiveSessionComponent } from './components/live-session/live-session.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ClipboardModule
+    ClipboardModule,
+    ReactiveFormsModule,
+    SweetAlert2Module
   ],
   providers: [],
   bootstrap: [AppComponent]
