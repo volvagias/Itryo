@@ -15,11 +15,12 @@ export class ContactComponent {
   constructor(public formBuilder: FormBuilder) {}
 
   ngOnInit(): void {
+    
     this.form = this.formBuilder.group({
-      name: ['', Validators.required],
-      email: ['', Validators.required, Validators.email],
-      phone: ['', Validators.required, this.numericValidator],
-      message: ['', Validators.required],
+      name: ['' , Validators.required],
+      email: ['' , [Validators.required, Validators.email]],
+      phone: ['' , [Validators.required, this.numericValidator]],
+      message: ['' , Validators.required]
     })
   }
 
