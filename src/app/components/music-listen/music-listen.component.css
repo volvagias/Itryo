@@ -68,6 +68,14 @@ h3 {
     letter-spacing: 5px;
 }
 
+.bi-play-fill {
+    color: white;
+}
+
+.bi-play-fill:hover {
+    color: rgb(151 29 29);
+}
+
 .music-links {
     display: flex;
 }
