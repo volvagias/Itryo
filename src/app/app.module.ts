@@ -20,6 +20,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
     MusicListenComponent,
     LiveSessionComponent,
     ContactComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
