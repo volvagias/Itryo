@@ -21,6 +21,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 import { ReactiveFormsModule } from '@angular/forms';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { PhotosComponent } from './components/photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     LiveSessionComponent,
     ContactComponent,
     ContactPageComponent,
-    GalleryComponent
+    GalleryComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,
