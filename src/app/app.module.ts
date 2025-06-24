@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopInfoComponent } from './components/top-info/top-info.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MusicComponent } from './pages/music/music.component';
@@ -22,6 +23,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { PhotosComponent } from './components/photos/photos.component';
+import { LightboxModule } from 'ng-gallery/lightbox';
 
 @NgModule({
   declarations: [
@@ -48,9 +50,13 @@ import { PhotosComponent } from './components/photos/photos.component';
     AppRoutingModule,
     ClipboardModule,
     ReactiveFormsModule,
-    SweetAlert2Module
+    SweetAlert2Module,
+    LightboxModule
   ],
-  providers: [],
+  providers: [
+    provideClientHydration(),
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
