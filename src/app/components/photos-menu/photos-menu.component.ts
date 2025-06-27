@@ -16,10 +16,4 @@ export class PhotosMenuComponent {
   navigateTo(route: string) {
     this.router.navigate([route]);
   }
-
-  openMenu() {
-    this.menuState = !this.menuState;
-    console.log(this.menuState);
-  }
-
 }
