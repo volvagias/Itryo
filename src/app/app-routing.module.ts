@@ -5,6 +5,7 @@ import { MusicComponent } from './pages/music/music.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { PhotosComponent } from './components/photos/photos.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent }, 
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'itryo-music', component: MusicComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contact-page', component: ContactPageComponent },
-  { path: 'gallery', component: GalleryComponent }
+  { path: 'gallery', component: GalleryComponent },
+  { path: 'photos', component: PhotosComponent }
 ];
 
 @NgModule({

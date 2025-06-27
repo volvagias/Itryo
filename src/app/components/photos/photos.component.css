@@ -46,5 +46,10 @@ img:hover {
     .h2-ctn {
         justify-content: center;
         margin-top: 20px;
+        padding: 75px 50px 12.5px 50px;
+    }
+
+    .h2-ctn h2 {
+        padding: 15px 0 15px 0;
     }
 }
