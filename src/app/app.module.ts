@@ -24,6 +24,7 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { PhotosComponent } from './components/photos/photos.component';
 import { LightboxModule } from 'ng-gallery/lightbox';
+import { PhotosMenuComponent } from './components/photos-menu/photos-menu.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { LightboxModule } from 'ng-gallery/lightbox';
     ContactComponent,
     ContactPageComponent,
     GalleryComponent,
-    PhotosComponent
+    PhotosComponent,
+    PhotosMenuComponent
   ],
   imports: [
     BrowserModule,
