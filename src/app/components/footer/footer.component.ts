@@ -1,0 +1,26 @@
+import { Component } from '@angular/core';
+import { Clipboard } from '@angular/cdk/clipboard';
+
+@Component({
+    selector: 'app-footer',
+    templateUrl: './footer.component.html',
+    styleUrl: './footer.component.css',
+    standalone: false
+})
+export class FooterComponent {
+
+  copyMessage: boolean = false;
+
+  constructor(private clipboard: Clipboard) {}
+
+  linkCopy() {
+    const copy = 'algo@gmail.com';
+    this.clipboard.copy(copy);
+
+    this.copyMessage = true;
+    setTimeout(() => {
+      this.copyMessage = false;
+    }, 1500); // Oculta el mensaje después de 4 segundos.
+  }
+
+}

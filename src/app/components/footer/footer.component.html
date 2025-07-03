@@ -1,0 +1,25 @@
+<footer>
+    <div style="display: flex;">
+        <h3 class="anton-sc-regular">SEGUINOS:</h3>
+    </div>
+    <div style="display: flex;">
+        <a href="https://www.instagram.com/itryo_rock/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/ItryoRock.ok/" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://twitter.com/ItryoRock/" target="_blank"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.youtube.com/@ItryoRock" target="_blank"><i class="bi bi-youtube"></i></a>
+    </div>
+
+    <div class="footer-info">
+        <div *ngIf="copyMessage" class="copy-message">Copiado al portapapeles</div>
+        <div class="email">
+            <p>itryo.rock&#64;gmail.com</p>
+            <button (click)="linkCopy()" title="Copiar dirección">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <p>2025 - Itryo ©</p>
+    </div>
+</footer>

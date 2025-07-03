@@ -1,0 +1,30 @@
+<header>
+    
+    <img onclick="window.location.replace('/home');" src="/assets/logos/logo-itryo.png" alt="Itryo - Sitio Oficial">
+
+    <div class="btn-container">
+        <button *ngIf="menuState === false" class="button-open" (click)="openMenu()"></button>
+        <button *ngIf="menuState === true" class="button-close" (click)="openMenu()"></button>
+    </div>
+
+    <div class="menu" *ngIf="menuState">
+        <ul>
+            <li>
+                <button (click)="navigateTo('/home')">HOME</button>
+            </li>
+            <li>
+                <button (click)="navigateTo('/itryo-music')">MÚSICA</button>
+            </li>
+            <li>
+                <button (click)="navigateTo('/gallery')">GALERÍA</button>
+            </li>
+            <li>
+                <button (click)="navigateTo('/about-us')">NOSOTROS</button>
+            </li>
+            <li>
+                <button (click)="navigateTo('/contact-page')" >CONTACTANOS</button>
+            </li>
+        </ul>
+    </div>
+
+</header>

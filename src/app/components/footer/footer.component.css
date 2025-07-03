@@ -1,0 +1,86 @@
+.anton-sc-regular { /* Fuente Rock */
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: "Anton SC", sans-serif;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 16px;
+    position: sticky;       /* position sticky y top 100 para acomodar siempre abajo de todo */
+    top: 100%;             
+    width: 100%;
+    z-index: 999;
+    padding: 17px 15px;
+    margin: 0;
+    text-align: center;
+
+    color: white;
+    font-size: 13.6px;
+    background: black;
+}
+
+p {
+    margin: 0;
+    overflow-wrap: anywhere;
+    font-family: 'Lora', serif;
+    letter-spacing: 1.5px;
+}
+
+footer a {
+    padding: 5px;
+}
+
+footer a:hover i {
+    color: rgb(151 29 29);
+}
+
+.bi-instagram, .bi-facebook, .bi-twitter-x, .bi-youtube {
+    color: white;
+    font-size: 23px;
+    transition: all ease 0.3s;
+}
+
+.email button {
+    background-color: unset;
+    border-style: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.email button i {
+    font-size: 15px;
+    color: white;
+    border-radius: 7px;
+    transition: all ease 0.3s;
+}
+
+.email button:hover i {
+    color: rgb(151 29 29);
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-info .copy-message {
+    padding: 2px;
+    border: 2px solid rgb(151 29 29);
+    color: rgb(151 29 29);
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
