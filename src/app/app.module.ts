@@ -25,6 +25,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 import { PhotosComponent } from './components/photos/photos.component';
 import { LightboxModule } from 'ng-gallery/lightbox';
 import { PhotosMenuComponent } from './components/photos-menu/photos-menu.component';
+import { PhotosEnsayosComponent } from './components/photos-ensayos/photos-ensayos.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { PhotosMenuComponent } from './components/photos-menu/photos-menu.compon
     ContactPageComponent,
     GalleryComponent,
     PhotosComponent,
-    PhotosMenuComponent
+    PhotosMenuComponent,
+    PhotosEnsayosComponent
   ],
   imports: [
     BrowserModule,
