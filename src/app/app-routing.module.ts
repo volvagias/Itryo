@@ -6,6 +6,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { PhotosComponent } from './components/photos/photos.component';
+import { PhotosEnsayosComponent } from './components/photos-ensayos/photos-ensayos.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent }, 
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contact-page', component: ContactPageComponent },
   { path: 'gallery', component: GalleryComponent },
-  { path: 'photos', component: PhotosComponent }
+  { path: 'photos', component: PhotosComponent },
+  { path: 'photos-ensayos', component: PhotosEnsayosComponent }
 ];
 
 @NgModule({
