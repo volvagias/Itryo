@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, AbstractControl, ValidationErrors } from '@angular/forms';
+import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
 @Component({
