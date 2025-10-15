@@ -19,6 +19,7 @@
     "@angular/platform-browser": "^19.2.4",
     "@angular/platform-browser-dynamic": "^19.2.4",
     "@angular/router": "^19.2.4",
+    "@emailjs/browser": "^4.4.1",
     "@ngx-gallery/lightbox": "^5.0.0-beta.0",
     "@sweetalert2/ngx-sweetalert2": "^13.0.0",
     "bootstrap-icons": "^1.11.3",

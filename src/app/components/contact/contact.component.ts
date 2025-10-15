@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, AbstractControl, ValidationErrors } from '@angular/forms';
+import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
 @Component({
@@ -67,7 +68,25 @@ export class ContactComponent {
           Swal.showLoading();
         }
       });
+
+      emailjs.init('YaVkhzB0bCZZT9XNp'); // Inicializa emailjs con tu usuario ID
+      let response = await emailjs.send("service_zvz4thk","template_f4kzggr",{ // Espera la respuesta de emailjs.send
+        name: this.form.value.name,
+        email: this.form.value.email,
+        phone: this.form.value.phone,
+        message: this.form.value.message,
+      });
+
+      Swal.fire({
+        icon: "success",
+        title: "Su consulta ha sido enviada.",
+        confirmButtonText: 'ACEPTAR'
+        /* Los estilos los puse en el style general para que funcionen */
+      });
+
+      this.form.reset();
     }
   }
+  /* async y await se utilizan para manejar el envío del correo electrónico de manera asíncrona y esperar la respuesta de emailjs.send antes de proceder con el siguiente código. */
 
 }
