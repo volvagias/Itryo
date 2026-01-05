@@ -27,6 +27,7 @@ import { LightboxModule } from 'ng-gallery/lightbox';
 import { PhotosMenuComponent } from './components/photos-menu/photos-menu.component';
 import { PhotosEnsayosComponent } from './components/photos-ensayos/photos-ensayos.component';
 import { PhotosSessionsComponent } from './components/photos-sessions/photos-sessions.component';
+import { PhotosFanartsComponent } from './components/photos-fanarts/photos-fanarts.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { PhotosSessionsComponent } from './components/photos-sessions/photos-ses
     PhotosComponent,
     PhotosMenuComponent,
     PhotosEnsayosComponent,
-    PhotosSessionsComponent
+    PhotosSessionsComponent,
+    PhotosFanartsComponent
   ],
   imports: [
     BrowserModule,
