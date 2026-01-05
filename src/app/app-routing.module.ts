@@ -8,6 +8,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 import { PhotosComponent } from './components/photos/photos.component';
 import { PhotosEnsayosComponent } from './components/photos-ensayos/photos-ensayos.component';
 import { PhotosSessionsComponent } from './components/photos-sessions/photos-sessions.component';
+import { PhotosFanartsComponent } from './components/photos-fanarts/photos-fanarts.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent }, 
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'gallery', component: GalleryComponent },
   { path: 'photos', component: PhotosComponent },
   { path: 'photos-ensayos', component: PhotosEnsayosComponent },
-  { path: 'photos-sessions', component: PhotosSessionsComponent }
+  { path: 'photos-sessions', component: PhotosSessionsComponent },
+  { path: 'photos-fanarts', component: PhotosFanartsComponent }
 ];
 
 @NgModule({
