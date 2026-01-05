@@ -4,11 +4,40 @@
     <h2>FAN ARTS</h2>
 </div>
 
-<div class="ctn">
-   
-    <img *ngFor="let item of items; let i = index" [lightbox]="i" [gallery]="galleryId" [src]="item.data?.thumb"/>
-    <!-- galleryId lo cree yo para darle un identificador único a la galería y no me abra otras imagenes de otras galerías. -->
-
+<div class="gallery">
+    <!-- Miniaturas -->
+    <div class="photo">
+      <img src="/assets/images/gallery/fanarts/fanart-1.jpg" (click)="openImage('/assets/images/gallery/fanarts/fanart-1.jpg', 'Fanart por Juan')">
+    </div>
+    <div class="photo">
+      <img src="/assets/images/gallery/fanarts/fanart-2.jpg" (click)="openImage('/assets/images/gallery/fanarts/fanart-2.jpg', 'Ilustración digital')">
+    </div>
+    <div class="photo">
+      <img src="/assets/images/gallery/fanarts/fanart-3.jpg" (click)="openImage('/assets/images/gallery/fanarts/fanart-3.jpg', 'Concept art')">
+    </div>
+    <div class="photo">
+      <img src="/assets/images/gallery/fanarts/fanart-4.jpg" (click)="openImage('/assets/images/gallery/fanarts/fanart-4.jpg', 'Concept art')">
+    </div>
+    <div class="photo">
+      <img src="/assets/images/gallery/fanarts/fanart-5.jpg" (click)="openImage('/assets/images/gallery/fanarts/fanart-5.jpg', 'Concept art')">
+    </div>
+    <div class="photo">
+      <img src="/assets/images/gallery/fanarts/fanart-6.jpg" (click)="openImage('/assets/images/gallery/fanarts/fanart-6.jpg', 'Concept art')">
+    </div>
+    <div class="photo">
+      <img src="/assets/images/gallery/fanarts/fanart-7.jpg" (click)="openImage('/assets/images/gallery/fanarts/fanart-7.jpg', 'Concept art')">
+    </div>
+    <div class="photo">
+      <img src="/assets/images/gallery/fanarts/fanart-8.jpg" (click)="openImage('/assets/images/gallery/fanarts/fanart-8.jpg', 
+      'Concept art lalalalalalalalalalalala lelelelelelelelele.')">
+    </div>
+  </div>
+  
+<!-- Popup / Lightbox -->
+<div class="popup" *ngIf="openedImage">
+    <button class="close-btn" (click)="closeImage()">×</button>
+    <img [src]="openedImage.src" />
+    <div class="popup-text">{{ openedImage.text }}</div>
 </div>
 
 <router-outlet/>
