@@ -24,4 +24,8 @@ export class CarouselComponent {
     }, 0);
   }
 
+  navigateTo(route: string) {
+    this.router.navigate([route]);
+  }
+
 }
