@@ -18,7 +18,12 @@ export class PhotosEnsayosComponent {
     new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-1.jpg', thumb: '/assets/images/gallery/ensayos/ensayos-1.jpg' }),
     new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-2.jpg', thumb: '/assets/images/gallery/ensayos/ensayos-2.jpg' }),
     new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-3.jpg', thumb: '/assets/images/gallery/ensayos/ensayos-3.jpg' }),
-    new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-4.jpeg', thumb: '/assets/images/gallery/ensayos/ensayos-4.jpeg' })
+    new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-4.jpeg', thumb: '/assets/images/gallery/ensayos/ensayos-4.jpeg' }),
+    new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-5.jpg', thumb: '/assets/images/gallery/ensayos/ensayos-5.jpg' }),
+    new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-6.jpg', thumb: '/assets/images/gallery/ensayos/ensayos-6.jpg' }),
+    new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-7.jpg', thumb: '/assets/images/gallery/ensayos/ensayos-7.jpg' }),
+    new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-8.jpg', thumb: '/assets/images/gallery/ensayos/ensayos-8.jpg' }),
+    new ImageItem({ src: '/assets/images/gallery/ensayos/ensayos-9.jpg', thumb: '/assets/images/gallery/ensayos/ensayos-9.jpg' })
   ];
 
   ngOnInit(): void {

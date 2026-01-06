@@ -32,11 +32,12 @@ export class PhotosComponent {
     new ImageItem({ src: '/assets/images/gallery/shows/shows-16.jpg', thumb: '/assets/images/gallery/shows/shows-16.jpg' }),
     new ImageItem({ src: '/assets/images/gallery/shows/shows-17.JPG', thumb: '/assets/images/gallery/shows/shows-17.JPG' }),
     new ImageItem({ src: '/assets/images/gallery/shows/shows-18.jpg', thumb: '/assets/images/gallery/shows/shows-18.jpg' }),
+    new ImageItem({ src: '/assets/images/gallery/shows/shows-19.jpg', thumb: '/assets/images/gallery/shows/shows-19.jpg' }),
     new ImageItem({ src: '/assets/images/gallery/shows/shows-20.jpg', thumb: '/assets/images/gallery/shows/shows-20.jpg' }),
     new ImageItem({ src: '/assets/images/gallery/shows/shows-21.jpg', thumb: '/assets/images/gallery/shows/shows-21.jpg' }),
     new ImageItem({ src: '/assets/images/gallery/shows/shows-22.jpg', thumb: '/assets/images/gallery/shows/shows-22.jpg' }),
-    new ImageItem({ src: '/assets/images/gallery/shows/shows-23.jpg', thumb: '/assets/images/gallery/shows/shows-23.jpg' }),
-    new ImageItem({ src: '/assets/images/gallery/shows/shows-24.jpg', thumb: '/assets/images/gallery/shows/shows-24.jpg' })
+    new ImageItem({ src: '/assets/images/gallery/shows/shows-24.jpg', thumb: '/assets/images/gallery/shows/shows-24.jpg' }),
+    new ImageItem({ src: '/assets/images/gallery/shows/shows-25.jpg', thumb: '/assets/images/gallery/shows/shows-25.jpg' })
   ];
 
   ngOnInit(): void {
