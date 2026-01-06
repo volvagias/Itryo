@@ -28,6 +28,7 @@ import { PhotosMenuComponent } from './components/photos-menu/photos-menu.compon
 import { PhotosEnsayosComponent } from './components/photos-ensayos/photos-ensayos.component';
 import { PhotosSessionsComponent } from './components/photos-sessions/photos-sessions.component';
 import { PhotosFanartsComponent } from './components/photos-fanarts/photos-fanarts.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { PhotosFanartsComponent } from './components/photos-fanarts/photos-fanar
     PhotosMenuComponent,
     PhotosEnsayosComponent,
     PhotosSessionsComponent,
-    PhotosFanartsComponent
+    PhotosFanartsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
